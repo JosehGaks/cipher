@@ -27,6 +27,7 @@ public class Encrypt {
     public String encrypt() {
         String output = "";
         char c;
+
         for (int i = 0; i < inputText.length(); i++) {
             c = inputText.charAt(i);
             if (c >= 'a' && c <= 'z') {
@@ -53,6 +54,7 @@ public class Encrypt {
     public String decrypt() {
         String outputd = "";
         char c;
+
         for (int i = 0; i < inputText.length(); i++) {
             c = inputText.charAt(i);
             if (c >= 'a' && c <= 'z') {
