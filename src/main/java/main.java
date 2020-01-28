@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
 public class main {
+
     public static void main(String[] args){
 
         Scanner keyboard = new Scanner(System.in);
 
         Encrypt encript = new Encrypt("", 0);
-
 
         System.out.println("choose the action you want:\n [1] ENCRYPT\n [2] DECRYPT");
         int x = Integer.parseInt(keyboard.next());
