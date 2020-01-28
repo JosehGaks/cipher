@@ -6,4 +6,7 @@ public class Encrypt {
         this.key = key;
         this.inputText = inputText;
     }
+    public String getInput() {
+        return inputText;
+    }
 }
