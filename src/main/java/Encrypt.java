@@ -18,4 +18,7 @@ public class Encrypt {
         this.inputText = inputText;
 
     }
+    public void setKey(int key) {
+        this.key = key;
+    }
 }
