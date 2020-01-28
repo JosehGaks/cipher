@@ -13,6 +13,6 @@ public class EncryptTest {
     public  void  decrypt_decryptText(){
         Encrypt testDecrypt = new Encrypt("y",2);
         String expectedOutput = "w";
-        assertEquals(expectedOutput,testDecrypt.encrypt());
+        assertEquals(expectedOutput,testDecrypt.decrypt());
     }
 }
