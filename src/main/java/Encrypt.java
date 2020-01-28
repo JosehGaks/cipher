@@ -9,4 +9,7 @@ public class Encrypt {
     public String getInput() {
         return inputText;
     }
+    public int getKey() {
+        return key;
+    }
 }
