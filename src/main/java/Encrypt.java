@@ -7,10 +7,12 @@ public class Encrypt {
         this.inputText = inputText;
     }
     public String getInput() {
+
         return inputText;
     }
 
     public int getKey() {
+
         return key;
     }
 
